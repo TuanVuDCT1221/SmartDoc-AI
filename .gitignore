@@ -3,11 +3,22 @@ __pycache__/
 *.py[cod]
 *$py.class
 venv/
+.venv/
 .env
+.env.example
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.streamlit/
 
 # App data & Logs
-data/*.pdf
+data/*
 logs/*.log
+vector_store/*
+!data/.gitkeep
+!logs/.gitkeep
+!vector_store/.gitkeep
 
 # OS
 .DS_Store
+Thumbs.db

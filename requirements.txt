@@ -6,6 +6,7 @@ faiss-cpu
 sentence-transformers
 pdfplumber
 pypdf
+python-docx
 numpy
 pandas
 torch --index-url https://download.pytorch.org/whl/cpu
